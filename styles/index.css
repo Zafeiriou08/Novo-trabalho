@@ -1,0 +1,40 @@
+/* reset do CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+ background-image: url(../assets/mountains-universe-1.png);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+
+ height:  100vh;
+}
+
+header {
+    display: flex;
+    padding: 40px 72px;
+    gap: 44px;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 44px;
+
+        a {
+            font-size: 22px;
+            color: #e1e1e6;
+            text-decoration: none;
+        }
+
+        .ativa {
+            font-weight: 700;
+            color: #FFF;
+        }
+    }
+}
