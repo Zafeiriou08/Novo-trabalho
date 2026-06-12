@@ -7,7 +7,7 @@
 }
 
 body {
- background-image: url(../assets/mountains-universe-1.png);
+     background-image: url(../assets/mountains-universe-2.png);  
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
@@ -38,32 +38,20 @@ header {
         }
     }
 }
-
 main {
-    margin-top: 220px;
-    width: fit-content;
-    margin-inline: auto;
+    margin-left: 102px;
     color: #e1e1e6;
+    margin-top: 63px;
 
     h1 {
-        font size: 48px;
+        font-size: 48px;
         line-height: 125%;
-        margin-bottom: 24px;
+        margin-bottom: 16px;
     }
 
-    a {
-      border: 2px solid #FFF;
-      display: block;
-      width: fit-content;
-      margin-inline: auto;
-      padding: 12px 32px;
-      border-radius: 5px;
-      color: #FFF;
-      text-decoration: none;
-      text-transform: uppercase;
-      font-size: 14px;
-      line-height: 24px;
-      font-weight: 700;
+    p {
+        max-width: 648px;
+        line-height: 160%;
+        font-size: 18px;
     }
-
 }
